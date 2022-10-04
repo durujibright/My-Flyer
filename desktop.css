@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8d6f56;
+  /* overflow: hidden; */
+}
+
+main {
+  width: 850px;
+  height: 480px;
+  background-color: #2e2c2e;
+  border-radius: 20px;
+  margin: 140px auto;
+  display: flex;
+}
+
+main section.image {
+  width: 40%;
+  height: 95%;
+  /* margin: 15px 5px 15px 10px; */
+}
+
+main section.image img {
+  width: 350px;
+  height: 440px;
+  margin: 28px 0px 0px 10px;
+  border-radius: 60px;
+  position: relative;
+}
+
+main section.image h3 {
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #98533e;
+  position: absolute;
+  margin: -380px 0px 0px 44px;
+  /* top: 220px;
+  left: 430px; */
+}
+
+main section.image h4 {
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: 800;
+  color: #ae9f9c;
+  font-family: 'Niconne', cursive;
+  font-style: italic;
+  position: absolute;
+  margin: -340px 0px 0px 24px;
+  /* top: 258px;
+  left: 400px; */
+}
+
+main section.platform {
+  width: 47%;
+  height: 95%;
+  margin: 15px 5px 15px 25px;
+}
+
+main section.platform img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0px 0px 180px;
+  border: 4px solid #ae9f9c;
+  border-radius: 60%;
+}
+
+main section.platform h3 {
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #98533e;
+  position: absolute;
+  margin: -80px 0px 0px 24px;
+  /* top: 200px;
+  left: 755px; */
+}
+
+main section.platform .whole {
+  display: flex;
+}
+
+main section.platform .links {
+  border: 4px solid #ae9f9c;
+  width: 200px;
+  width: 200px;
+  text-align: center;
+  height: 45px;
+  margin: 15px 5px 0px 25px;
+  border-radius: 10px;
+  box-shadow: #2e2c2e 10px 10px 70px 4px;
+  font-family: 'Courgette', cursive;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+main section.platform .links p {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 8px;
+  color: #98533e;
+  font-weight: 700;
+}
+
+main section.platform .links:hover {
+  box-shadow: #7c5331 0px 19px 38px,
+   #111217 0px 15px 12px;
+}
+
+main section.platform .links p:hover {
+  font-size: 24px;
+  font-weight: 100;
+  transition: all 0.4s;
+}
