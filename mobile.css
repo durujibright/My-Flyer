@@ -1,9 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -34,12 +34,12 @@ main section.image img {
 
 main section.image h3 {
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Courgette', cursive;
   font-size: 30px;
   font-weight: 800;
   color: #98533e;
   position: absolute;
-  margin:  -340px 0px 0px 64px;
+  margin: -340px 0px 0px 64px;
   /* top: 220px;
   left: 650px; */
 }
@@ -49,10 +49,10 @@ main section.image h4 {
   font-size: 30px;
   font-weight: 800;
   color: #ae9f9c;
-  font-family: 'Niconne', cursive;
+  font-family: 'Courgette', cursive;
   font-style: italic;
   position: absolute;
-  margin:  -300px 0px 0px 30px;
+  margin: -300px 0px 0px 30px;
   /* top: 260px;
   left: 620px; */
 }
@@ -72,7 +72,7 @@ main section.platform img {
 
 main section.platform h3 {
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Courgette', cursive;
   font-size: 18px;
   font-weight: 800;
   color: #98533e;
@@ -109,8 +109,7 @@ main section.platform .links p {
 }
 
 main section.platform .links:hover {
-  box-shadow: #7c5331 0px 19px 38px,
-   #111217 0px 15px 12px;
+  box-shadow: #7c5331 0px 19px 38px, #111217 0px 15px 12px;
 }
 
 main section.platform .links p:hover {
